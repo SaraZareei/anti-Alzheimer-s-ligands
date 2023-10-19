@@ -1,0 +1,49 @@
+REMARK VINA RESULT:      -8.1      0.000      0.000
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2_2  and  C3_3 
+REMARK    2  A    between atoms: C6_6  and  C11_11 
+REMARK    3  A    between atoms: C8_8  and  O9_9 
+REMARK    4  A    between atoms: C16_16  and  N17_17 
+REMARK    5  A    between atoms: N17_17  and  N18_18 
+REMARK    6  A    between atoms: N18_18  and  C19_19 
+ROOT
+ATOM      1  C1  Z92 A 421      35.859  39.186  58.950  1.00 19.15     0.181 C 
+ATOM      2  O2  Z92 A 421      35.788  37.924  59.546  1.00 29.62    -0.326 OA
+ENDROOT
+BRANCH   2   3
+ATOM      3  C3  Z92 A 421      35.763  36.898  58.680  1.00 31.02     0.116 A 
+ATOM      4  C4  Z92 A 421      36.906  36.576  58.023  1.00 32.17     0.026 A 
+ATOM      5  C5  Z92 A 421      36.965  35.566  57.116  1.00 34.73     0.004 A 
+ATOM      6  C6  Z92 A 421      35.834  34.853  56.862  1.00 35.36     0.023 A 
+ATOM      7  C7  Z92 A 421      34.677  35.171  57.525  1.00 32.18     0.028 A 
+ATOM      8  C8  Z92 A 421      34.632  36.182  58.429  1.00 31.23     0.116 A 
+BRANCH   6   9
+ATOM      9  C11 Z92 A 421      35.827  33.749  55.900  1.00 35.82     0.127 A 
+ATOM     10  N12 Z92 A 421      35.188  32.673  56.098  1.00 31.38    -0.143 NA
+ATOM     11  N13 Z92 A 421      35.311  31.779  55.078  1.00 32.36    -0.104 NA
+ATOM     12  C14 Z92 A 421      36.053  32.305  54.169  1.00 35.30     0.318 A 
+ATOM     13  O15 Z92 A 421      36.413  31.869  53.148  1.00 34.81    -0.262 OA
+ATOM     14  C16 Z92 A 421      36.452  33.569  54.599  1.00 37.87     0.181 A 
+BRANCH  14  15
+ATOM     15  N17 Z92 A 421      37.161  34.258  53.802  1.00 40.69    -0.141 NA
+BRANCH  15  16
+ATOM     16  N18 Z92 A 421      38.366  34.413  53.960  1.00 43.65    -0.148 NA
+BRANCH  16  17
+ATOM     17  C19 Z92 A 421      38.897  35.567  53.466  1.00 45.75     0.103 A 
+ATOM     18  C20 Z92 A 421      38.668  36.673  54.216  1.00 48.29     0.022 A 
+ATOM     19  C21 Z92 A 421      39.129  37.856  53.774  1.00 51.91     0.013 A 
+ATOM     20  C22 Z92 A 421      39.785  37.959  52.595  1.00 54.49     0.058 A 
+ATOM     21 CL23 Z92 A 421      40.271  39.555  52.170  1.00 63.30    -0.082 Cl
+ATOM     22  C24 Z92 A 421      40.008  36.853  51.829  1.00 47.24     0.013 A 
+ATOM     23  C25 Z92 A 421      39.554  35.642  52.263  1.00 44.19     0.022 A 
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH   6   9
+BRANCH   8  24
+ATOM     24  O9  Z92 A 421      33.500  36.513  59.060  1.00 28.88    -0.326 OA
+ATOM     25  C10 Z92 A 421      33.325  36.300  60.434  1.00 21.93     0.181 C 
+ENDBRANCH   8  24
+ENDBRANCH   2   3
+TORSDOF 6
